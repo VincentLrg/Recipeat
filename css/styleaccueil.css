@@ -1,0 +1,121 @@
+/*Global*/
+
+html , body {
+background: url(../assets/image/fond.png) no-repeat center fixed;
+-webkit-background-size:cover;
+background-size:cover;
+background-color: #4cae49;
+}
+
+/* Container */
+.container{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height:90vh;
+}
+.container h1{
+	color:white;
+	font-family: "Roboto", Helvetica, sans-serif;
+	font-size: 1.75em;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+}
+.container #discover{
+	padding: 16px 32px;
+	color: white;
+	border: 2px solid white;
+	background-color: transparent;
+	outline: none;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: "Roboto", Helvetica, sans-serif;
+	font-weight: bold;
+	font-size:1em;
+	border-radius: 12px;
+	-webkit-transition-duration: 0.4s; /* Safari */
+	transition-duration: 0.4s;
+	cursor: pointer;
+}
+.container #discover:hover{
+	background-color: white;
+	color:black;
+}
+.container #discover:link{
+	text-decoration: none;
+}
+
+/*Section*/
+.section{
+	background-color: #FDFDFD;
+	height:100vh;
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+.section img{
+	width:20%;
+	margin-left:5%;
+}
+#article1{
+	font-family: "Roboto", Helvetica,sans-serif;
+	color:black;
+	text-align: center;
+	width:70%;
+	text-transform: uppercase;
+	z-index: 3;
+}
+#article1 p{
+	font-size: 1.2em;
+}
+.section2{
+	background-color: #FDFDFD;
+	height:100vh;
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: row-reverse;
+}
+.section2 img{
+	width:20%;
+	margin-right:5%;
+}
+#article1 li{
+	width: 75%;
+	margin:auto;
+	font-size: 1.4em;
+	font-style: italic;
+	text-transform: none;
+}
+#box1{
+	background-color:#FAFAFA;
+	position:absolute;
+	width:70%;
+	height:100vh;
+	left:30%;
+	top:100vh;
+	z-index: 1;
+}
+#box2{
+	background-color:#FAFAFA;
+	position:absolute;
+	width:70%;
+	height:100vh;
+	right:30%;
+	top:200vh;
+	z-index: 1;
+}
+#t-d, #i-d{
+	display:flex;
+	justify-content: space-evenly;
+	z-index:3;
+}
+.ios{
+	padding-left:14%;
+}
+.android{
+	padding-right:15%;
+}

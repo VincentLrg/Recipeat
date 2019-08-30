@@ -1,0 +1,25 @@
+#menu a:link{
+  color:black;
+  opacity: 0.75;
+}
+#menu a:visited{
+  color:black;
+}
+#menu a:hover {
+  opacity: 1;
+}
+#menu a:active{
+  color:black;
+}
+.footer #menu a:link{
+  color:white;
+}
+.footer #menu a:visited{
+  color:white;
+}
+.footer #menu a:hover{
+  opacity:1;
+}
+.footer #menu a:active{
+  color:white;
+}
